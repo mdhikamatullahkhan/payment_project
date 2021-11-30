@@ -1,0 +1,155 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: black;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+body{
+  /*font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+*/}
+.landing{
+  
+
+  padding-top: 50px;
+  text-align: center;
+  
+  
+}
+.nav-list{
+  list-style: none;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.nav-list-item{
+  display: inline;
+  padding-right: 50px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  font-display: center;
+}
+
+.nav-list-item:hover{
+  font-size: 1.5rem;
+  font-weight: bolder;
+}
+
+.lead{
+  font-size: 1.1rem;
+  text-align: justify;
+  text-justify: inter-word;
+  font-family: 'New Century Schoolbook', 'TeX Gyre Schola', 'serif';
+}
+
+.landing-inner{
+  width: 60%;
+}
+
+.large{
+  text-align: center;
+  font-family: 'Arial', 'Helvetica', 'sans-serif';
+  color:  black(2, 17, 100);
+  font-weight: bolder;
+}
+h1{
+  font-size: 1.5rem;
+  
+}
+.transfer-inner{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+input[type=number]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+
+.dart-overlay1, .dart-overlay2{
+margin-left: 25%;
+margin-right: 25%;
+}
+
+.transfer label{
+  font-size: medium;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.head-receipt, .head2-receipt{
+  text-align: center;
+  font-family: 'Arial', 'Helvetica', 'sans-serif';
+  font-weight: bold;
+  color: black;
+}
+
+
+.error{
+  color: red;
+  padding-bottom: 20px;
+  font-size: 0.8rem;
+}
+
+.dash-head{
+  text-align: center;
+  padding-bottom: 10px;
+  font-weight: bolder;
+  color: black;
+}
+
+#button{
+ text-align: center;
+ padding-bottom: 10px; 
+}
+
+.box{
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px;
+  margin-bottom: 30px;
+}
+
+.dart-overlay2{
+  font-size: medium;
+}
+.footer{
+  position: absolute;
+  padding-top: 10px;
+  padding-bottom: 0px;
+  width: 100%;
+  height: 50px;
+  background-color: black;
+  text-align: center;
+  color: white;
+}
